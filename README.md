@@ -24,7 +24,7 @@ In this assignment, you will containerize a Django application, deploy it using 
 1. Create a kubernetes deployment yaml file, that uses the Docker image from step 2
     - remember to export port 8000
 
-2. Crete a kubernetes service yaml file
+2. Create a kubernetes service yaml file
 
 3. Apply the kubernetes development and servics configuration
 
