@@ -1,8 +1,9 @@
 
-FROM python:3.10-slim
+FROM python
 
 WORKDIR /app
 COPY . .
+
 RUN pip install -r requirements.txt
 
 
