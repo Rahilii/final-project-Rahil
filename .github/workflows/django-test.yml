@@ -2,7 +2,7 @@
 
 name: Django Test
 
-on: pull
+on: pull_request
 
 jobs:
   test:
