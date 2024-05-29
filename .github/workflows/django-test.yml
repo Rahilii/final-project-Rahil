@@ -1,5 +1,3 @@
-# testing
-
 name: Django Test
 
 on: pull_request
@@ -25,7 +23,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.7-slim
+          python-version: 3.7
 
       - name: Install dependencies
         run: |
