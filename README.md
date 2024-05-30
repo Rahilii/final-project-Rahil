@@ -1,4 +1,4 @@
-# Webb23 alm final project
+# grupp 5 alm final project
 
 ## Objective
 In this assignment, you will containerize a Django application, deploy it using Kubernetes (Minikube), and set up GitHub Actions to automate testing. 
@@ -72,10 +72,7 @@ In this assignment, you will containerize a Django application, deploy it using 
             ```
         - Dont forget to expose container port 8000
         - It should depend on db service
-        - Add db enviroment variable
-            ```yaml
-            DATABASE_URL: postgres://postgres:postgres@db:5432/django_db
-            ```
+        
 2. Build and start container
     - When its running run this command in a seperate terminal
     ```shell
