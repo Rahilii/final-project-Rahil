@@ -40,7 +40,7 @@ In this assignment, you will containerize a Django application, deploy it using 
     ```
     - Remember to use pip to install all package
     ```yaml
-    pip install -r requirements.txt 
+    pip install -r requirements.txt
     ```
     - The last step to run the test you need to run two commands
     ```yaml
